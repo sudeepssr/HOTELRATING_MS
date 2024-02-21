@@ -1,0 +1,11 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: ConfigServer_MS
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sudeepssr/microservices-config
+          clone-on-start: true
